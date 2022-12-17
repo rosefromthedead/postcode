@@ -1,0 +1,8 @@
+[package]
+name = "postcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.5.4", features = ["gnome_43"] }
+adw = { package = "libadwaita", version = "0.2.1", features = ["v1_2"] }
